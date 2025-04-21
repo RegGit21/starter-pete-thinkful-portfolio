@@ -31,6 +31,30 @@ div {
   align-items: center;
 }
 
+/* Section Container for Image and Heading */
+#intro-section {
+  display: flex;
+  justify-content: space-between; /* Aligns image and text horizontally */
+  align-items: center; /* Vertically centers content */
+  padding: 20px;
+}
+
+/* Heading Styling */
+#intro-section h1 {
+  text-align: center; /* Centers heading within the section */
+  flex: 1; /* Allows heading to take up available space */
+}
+
+/* Text Styling Below Heading */
+#intro-section p {
+  text-align: left; /* Aligns text to the left */
+}
+
+/* Pete's Background Section */
+#background-section {
+  margin-top: 20px; /* Adds space below the intro section */
+}
+
 article {
   padding: 50px 0;
 }
