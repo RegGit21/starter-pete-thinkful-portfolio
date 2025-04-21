@@ -69,6 +69,31 @@ p {
   line-height: 1.5;
 }
 
+/* Projects Container */
+#projects-container {
+  display: flex; /* Arrange projects in a single row */
+  gap: 20px; /* Add spacing between projects (adjust value as needed) */
+  flex-wrap: wrap; /* Optional: Wrap to next row if container width is exceeded */
+  justify-content: space-between; /* Distribute projects evenly */
+  margin: 20px 0; /* Add vertical spacing around the section */
+}
+
+/* Individual Project Styling */
+.project {
+  width: 30%; /* Adjust width to fit multiple projects in a row */
+  text-align: center; /* Center-align the content of each project */
+  padding: 10px; /* Add padding inside the project container */
+  background-color: #f5f5f5; /* Optional: Add a background color */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* Project Description Styling */
+.project-description {
+  font-size: 14px; /* Set font size for project descriptions */
+  text-align: left; /* Align description text to the left */
+  margin-top: 10px; /* Add spacing above the description */
+}
+
 /* Links */
 a:link {
   color: #d62828;
