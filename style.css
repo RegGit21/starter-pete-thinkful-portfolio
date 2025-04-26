@@ -36,6 +36,13 @@ div {
 }
 
 /* Section Container for Image and Heading */
+
+/* Heading Styling */
+h2 {
+  text-align: center; /* Centers heading within the section */
+  flex: 1; /* Allows heading to take up available space */
+}
+
 #intro-section {
   display: flex;
   justify-content: space-between; /* Aligns image and text horizontally */
@@ -43,11 +50,7 @@ div {
   padding: 20px;
 }
 
-/* Heading Styling */
-#intro-section h1 {
-  text-align: center; /* Centers heading within the section */
-  flex: 1; /* Allows heading to take up available space */
-}
+
 
 /* Text Styling Below Heading */
 #intro-section p {
