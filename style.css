@@ -1,12 +1,6 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-body {
-  background-color: #eae2b7;
-  color: #003049;
-  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
-}
 
 /* Headings */
 h1,
@@ -16,9 +10,19 @@ h3 {
   text-align: center;
 }
 
-/* Header */
-header {
+h4 {
   text-align: center;
+}
+
+nav {
+  text-align: Center;
+}
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
 }
 
 /* Containers */
