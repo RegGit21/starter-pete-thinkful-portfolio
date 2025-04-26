@@ -101,6 +101,7 @@ p {
   font-size: 14px; /* Set font size for project descriptions */
   text-align: left; /* Align description text to the left */
   margin-top: 10px; /* Add spacing above the description */
+  text-wrap: wrap; /*allow text to wrap*/
 }
 
 /* Links */
