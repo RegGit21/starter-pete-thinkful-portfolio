@@ -36,9 +36,13 @@ div {
 }
 
 /* Section Container for Image and Heading */
+#about {
+  text-align: center;
+  margin: 0 auto;
+}
 
 /* Heading Styling */
-#about h2 {
+h2 {
   text-align: center;  /* Centers heading within the section */
   flex: 1;  /* Allows heading to take up available space */
 }
