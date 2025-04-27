@@ -123,7 +123,7 @@ img {
 
 .image-circle {
   display: block; /*center image within its section */
-  margin: 0 auto;
+  margin: 10px;
   border: 2px solid #003049;
   border-radius: 50%;
 }
