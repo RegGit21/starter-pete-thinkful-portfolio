@@ -39,7 +39,7 @@ div {
 
 /* Heading Styling */
 h2 {
-  /* text-align: center;  Centers heading within the section */
+  text-align: center;  /* Centers heading within the section */
   flex: 1;  /* Allows heading to take up available space */
 }
 
