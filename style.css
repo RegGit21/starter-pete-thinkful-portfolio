@@ -30,9 +30,9 @@ div {
   background-color: #eae2b7;
   margin: auto;
   width: 100%;
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
 }
 
 /* Section Container for Image and Heading */
