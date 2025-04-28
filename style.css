@@ -36,16 +36,12 @@ div {
 }
 
 /* Section Container for Image and Heading 
-.about h2 {
-  text-align: center;
-  margin: 0 auto;
-}
-*/
+.about h2 {  text-align: center;  margin: 0 auto;}*/
 
 /* Heading Styling  */
 h2 {
   text-align: center;  /* Centers heading within the section */
-  flex: 1;  /* Allows heading to take up available space */
+  /*flex: 1;  Allows heading to take up available space */
 }
 
 #intro-section {
